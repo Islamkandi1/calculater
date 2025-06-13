@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="calulater" />
+    <meta name="author" content="Islam kandil" />
+    <title>claculater</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="calulater">
+      <section
+        class="container d-flex justify-content-center align-items-center"
+      >
+        <form class="calc-content mb-2">
+          <section class="input w-100 d-flex">
+            <input
+              type="text"
+              readonly
+              value="0"
+              id="input"
+              class="flex-grow-1 p-4 bg-transparent border-0 text-end"
+            />
+          </section>
+          <section class="btns">
+            <input type="button" value="AC" class="bg-gray fw-bold use-btn" />
+            <input type="button" value="%" class="bg-gray fw-bold use-btn" />
+            <input type="button" value="⌫" class="bg-gray fw-bold use-btn" />
+            <input type="button" value="÷" class="bg-orange use-btn" />
+
+            <input type="button" value="7" class="use-btn" />
+            <input type="button" value="8" class="use-btn" />
+            <input type="button" value="9" class="use-btn" />
+            <input type="button" value="×" class="bg-orange use-btn" />
+
+            <input type="button" value="4" class="use-btn" />
+            <input type="button" value="5" class="use-btn" />
+            <input type="button" value="6" class="use-btn" />
+            <input type="button" value="-" class="bg-orange use-btn" />
+
+            <input type="button" value="1" class="use-btn" />
+            <input type="button" value="2" class="use-btn" />
+            <input type="button" value="3" class="use-btn" />
+            <input type="button" value="+" class="bg-orange use-btn" />
+
+            <input type="button" class="flex-grow-1 zero use-btn" value="0" />
+            <input type="button" value="." class="use-btn" />
+            <input type="button" value="=" class="bg-orange use-btn" />
+          </section>
+        </form>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
