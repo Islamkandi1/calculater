@@ -13,7 +13,6 @@ for (let i = 0; i < btn.length; i++) {
     } else if (btnValue == "⌫") {
       input.value.slice(0, -1);
       input.value = input.value.slice(0, -1);
-      console.log(input.value);
       if (input.value == "") {
         input.value = "0";
       }

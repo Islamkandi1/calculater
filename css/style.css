@@ -11,7 +11,7 @@
   height: 100dvh;
   form {
     border-radius: 25px;
-    width: 330px;
+    width:330px ;
     padding-top: 1.2rem;
     background-color: var(--main-color);
   }
@@ -22,6 +22,7 @@
     outline: none;
     color: var(--first-color);
     font-size: 1.5rem;
+    width: 100%;
   }
 }
 .btns {
