@@ -3,9 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: red;
-}
 :root {
   --main-color: #161417;
   --first-color: #fff;
