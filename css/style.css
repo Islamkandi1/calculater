@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: red;
+}
 :root {
   --main-color: #161417;
   --first-color: #fff;
@@ -11,7 +14,7 @@
   height: 100dvh;
   form {
     border-radius: 25px;
-    width:330px ;
+    max-width:330px ;
     padding-top: 1.2rem;
     background-color: var(--main-color);
   }
@@ -23,6 +26,8 @@
     color: var(--first-color);
     font-size: 1.5rem;
     width: 100%;
+    background-color: transparent;
+    overflow: hidden;
   }
 }
 .btns {
